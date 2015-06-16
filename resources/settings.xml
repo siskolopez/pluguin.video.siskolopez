@@ -1,0 +1,10 @@
+﻿<settings>
+
+    <category label="Add siskolopez Source">
+    <setting id="new_url_source" type="text" label="Add URL" default="https://www.dropbox.com/s/2twtr9izfspqtvr/siskolopez.xml?dl=0" visible="eq(-2,1)"/>
+    <setting type="sep" />
+    <setting type="action" label="añadir lista de canales " option="close" action="RunPlugin(plugin://plugin.video.siskolopez/?mode=7)" />
+    <setting type="sep" />
+  
+  </category>
+  </settings>
